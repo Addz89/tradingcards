@@ -1,5 +1,79 @@
 body{background-image: url("https://wallpaper.dog/large/20493136.jpg");}
 
+/* header styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:content-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins',sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+:root {
+  --bg-color: #081b29;
+  --second-bg-color: #112e42;
+  --text-color: #ededed;
+  --main-color: #00abf0;
+}
+
+.header {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition: .3s;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: var(--main-color);
+  font-weight: 600;
+
+}
+
+.navbar a {
+  font-size: 1.7rem;
+  color: var(--text-color);
+  font-weight: 500;
+  margin-left: 3.5rem;
+  transition: .3s;
+
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+
+}
+
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--text-color);
+  cursor: pointer;
+  display: none;
+}
+
+/* start cards */
+
 .wrap {
   width:500px;
   margin:300px;
@@ -14,7 +88,7 @@ body{background-image: url("https://wallpaper.dog/large/20493136.jpg");}
   border-color:gray;
   color:black;
   width:280px;
-  height:325px;
+  height:368px;
 }
 
 .wolf:hover {
@@ -44,7 +118,7 @@ body{background-image: url("https://wallpaper.dog/large/20493136.jpg");}
   border-radius:1px;
   border-color:gray;
   height:700px;
-  margin-bottom:130px;
+
 }
 
 .Eagle {
@@ -90,7 +164,7 @@ body{background-image: url("https://wallpaper.dog/large/20493136.jpg");}
 p.intro {
   margin-top:1px;
   font-style: italic;
-  color:white
+  color: black;
 }
 
 span { 
