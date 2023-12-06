@@ -1,0 +1,96 @@
+body{background-image: url("https://wallpaper.dog/large/20493136.jpg");}
+.wrap{
+width:500px;
+  margin:300px;
+margin-top:130px;
+float-card:center;}
+.columns{
+  border:7px groove;
+  border-width:3px;
+  padding:10px;
+  border-color:gray;
+  color:black;
+  width:280px;
+  height:325px;
+  :2px;
+
+}
+  .wolf:hover{
+  box-shadow:10px 16px 16px 0 rgba(0,0,0,2);}
+.Eagle:hover{
+  box-shadow:10px 16px 16px 0 rgba(0,0,0,2);}
+.Tiger:hover{
+  box-shadow:10px 16px 16px 0 rgba(0,0,0,2);}
+.wolf{
+  padding:30px;
+  transition:0.4s;
+  width:300px;
+  text-align:left;
+  margin:20px;
+  margin-top:1px;
+  background: linear-gradient(to bottom, #ffffff 0%, #cc0000 85%);
+  float:left;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  border:2px groove;
+  border-width:3px;
+  border-padding:1px;
+  border-color:gray;
+  height:700px;
+  margin-bottom:130px;}
+
+.Eagle{
+  padding:30px;
+  transition:0.4s;
+  width:300px;
+  text-align:left;
+  float:left;
+  margin:20px;
+  margin-top:1px;
+  background: linear-gradient(to bottom, #ffffff 0%, #0099ff 85%);
+  float:left;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  border:2px groove;
+  border-width:3px;
+  border-padding:1px;
+  border-color:gray;
+  box-hight:300px;
+  margin-bottom:130px;
+  height:700px;
+}
+
+.Tiger{padding:30px;
+  transition:0.4s;
+  width:300px;
+  text-align:left;
+  float:left;
+  margin:20px;
+  margin-top:1px;
+  background: linear-gradient(to bottom, #ffffff 0%, #006600 85%);
+  float:left;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  border:2px groove;
+  border-width:3px;
+  border-padding:1px;
+  border-color:gray;
+  box-hight:300px;
+  margin-bottom:130px;
+  height:700px;}
+p.intro{
+  margin-top:1px;
+  font-style: italic;
+color:white}
+span{ font-weight:bold;
+color:black;}
+img{border: 6px solid gray;
+  width:294px;
+  height:190px;
+  margin:-1px;} 
+h2{color:black;
+  font-size:30px;}
+h3{color:black;
+  font-size:27px;}
+.about{color:white;}
+p{color:white;}
+h1{color:black;
+  size:30px;
+  height:20px;}
